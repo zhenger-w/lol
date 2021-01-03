@@ -1,0 +1,123 @@
+
+.recommend{
+	
+	
+	width: 1200px;
+	
+	height: 300px;
+	
+	
+	margin: 0 auto ;
+	
+	position: relative;
+	
+	top: 150px;
+	
+	/*background: green;*/
+	
+	
+}
+
+.recommend .line{
+	background: lightgray;
+	height: 3px;
+	width: 100%;
+	position: relative;
+	top: 43px;
+	
+
+}
+
+.recommend .recommendList{
+	
+	list-style: none;
+	width: 450px;
+	height: 40px;
+	/*background: red;*/
+	
+}
+
+.recommendList .recommendItem{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	width: 33.33%;
+	color: gray;
+	cursor: pointer;
+}
+
+.recommendList .recommendItem .animation{
+	background: rgb(225,173,77);;
+	height: 3px;
+	width: 150px;
+	position: absolute;
+	top: 43px;
+	
+}
+
+.recommendList .recommendItem:hover .title{
+	 color:  rgb(225,173,77);
+}
+
+.recommendList .recommendItem:nth-child(1):hover .title{
+	 color: rgb(53,53,53);
+}
+
+
+.recommendList .recommendItem:nth-child(3){
+	color:  rgb(225,173,77);
+}
+
+.recommendList .recommendItem:nth-child(1){
+	
+	text-align: left;
+	line-height: 40px;
+	font-size: 23px;
+	height: 40px;
+	color: rgb(53,53,53);
+	position: relative;
+	top: -10px;
+	
+}
+
+
+
+.recommend .activityList{
+	
+	width: 1200px;
+	height: 300px;
+	list-style: none;
+	position: relative;
+	top: 40px;
+}
+
+.activityList .activityItem{
+	
+	width: 24%;
+	height: 300px;
+	float: left;
+	margin: 6px;
+	cursor: pointer;
+	height: 200px;
+	/*position: absolute;*/
+}
+
+.activityList .activityItem .activityImg{
+	width: 100%;
+	height: 100%px;
+	/*position: absolute;*/
+
+}
+
+
+.activityList .activityItem .detail{
+	width: 50%;
+	height: 50%;
+	
+	
+	top: 0;
+	
+}
+
+

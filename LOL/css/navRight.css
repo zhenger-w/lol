@@ -1,0 +1,39 @@
+.navRight{
+	background: rgb(11,11,11);
+	width: 50px;
+	/*height: 100%;*/
+	position: fixed;
+	right: 0;
+	top: 150px;
+	bottom: 150px;
+}
+
+.navRight .list{
+	list-style: none;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+
+	line-height: 12px;
+}
+
+.navRight .list .item {
+	margin: 8px 0;
+	
+	
+	
+}
+
+.navRight .list .package{
+	
+	pmargin-top: 120px;
+	
+	
+}
+
+
+.navRight .list .item:nth-child(1){
+	margin-top: 20px;
+}
+
+

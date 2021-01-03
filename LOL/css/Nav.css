@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.TopNav{
+	background: rgb(11,11,11);
+	height: 90px;
+	
+	top: 0;
+	position: relative;
+
+}
+
+
+.TopNav .navBox{
+	
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	position: relative;
+}
+
+
+.navBox img{
+		cursor: pointer;
+
+}
+
+.navBox p{
+	color:  white;
+}
+
+.navBox .logo{
+	height: 66px;
+	width: 190px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -36px;
+	float: left;
+	
+}
+
+.navBox .navList{
+	
+	list-style: none;
+	position: absolute;
+	left: 220px;
+	height: 100%;
+	width: 600px;
+	
+}
+
+
+
+
+.navList .navItem{
+	float: left;
+	cursor: pointer;
+	width: 20%;
+}
+
+.navItem .title{
+	color:  white;
+	font-size: 18px;
+	margin:0 18px;
+	line-height: 90px;
+	
+}
+
+.navBox .searchBtn{
+	
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 840px;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+}
+
+.navBox .bookBtn{
+	
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 900px;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+	
+}
+
+.navBox .userCenter{
+	
+	float: left;
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 350px;
+	
+
+}
+
+
+.userCenter .userHead{
+	
+	width: 82px;
+	height: 80px;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+	/*float: left;*/
+	
+}
+
+.userCenter .loginTip{
+	/*float: left;*/
+	position: absolute;
+	height: 18px;
+	right:0 ;
+	width: 250px;
+	text-align: left;
+	top: 25px;
+	left: 190px;
+	
+	
+}
+
+.userCenter .loginSubTip{
+	font-size: 12px;
+	top: 50px;
+	height: 20px;
+	width: 250px;
+	right:0 ;
+		position: absolute;
+			text-align: left;
+			color: darkgray;
+
+
+}
+
+
+.loginTip .loginBtn{
+	
+	color: rgb(225,173,77);
+	cursor: pointer;
+}
+
+
+
+
+
+
+

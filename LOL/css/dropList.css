@@ -1,0 +1,57 @@
+.dropList{
+	
+	height: 220px;
+	/*width: 3000px;*/
+	top: 90px;
+	position: absolute;
+	background: rgba(11,11,11,0.6);
+	width: 100%;
+	
+	display: none;
+		
+}
+
+.dropList .bigBox{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	position: relative;
+}
+
+
+
+.bigBox .listBox{
+	position: absolute;
+	left: 220px;
+	height: 100%;
+	width: 600px;
+	top: 20px;
+	/*background: yellow;*/
+}
+
+.listItem{
+	list-style: none;
+	width: 20%;
+	float: left;
+}
+
+
+.listItem .item{
+	
+	color:  white;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.listItem .item:hover{
+	color: rgb(225,173,77);
+}
+
+
+
+
+
+

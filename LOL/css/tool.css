@@ -1,0 +1,57 @@
+.toolBar{
+	
+	height:50px;
+	/*background: white;*/
+	
+	border-bottom: 3px solid rgba(1,1,1,0.1);
+	
+}
+
+.toolBar .toolBox{
+	
+	margin: 0 auto;
+	width: 1200px;
+
+}
+
+.toolBox .toolList{
+	list-style: none;
+} 
+
+
+.toolList .barItem{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	margin: auto 26px;
+	color: gray;
+	cursor: pointer;
+}
+
+
+
+
+.toolList .barItem:hover{
+	color: rgb(225,173,77);
+}
+
+.toolList .barItem:nth-child(1){
+	
+	color: rgb(225,173,77);
+	
+}
+
+
+.toolList .barItem .animationBar{
+	width: 100px;
+	height: 3px;
+	background: rgb(225,173,77);
+	position: relative;
+	top: -2px;
+}
+
+
+
+

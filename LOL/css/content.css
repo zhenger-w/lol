@@ -1,0 +1,359 @@
+.content{
+	
+	
+	width: 1200px;
+	
+	height: 650px;
+	
+	
+	margin: 0 auto ;
+	
+	position: relative;
+	
+	top: 100px;
+	
+	
+	
+}
+
+/*leftBox*/
+.content .leftBox{
+	
+	width: 800px;
+	height:  100%;
+	position: relative;
+	/*background: lightgray;*/
+	
+}
+
+.leftBox .contentList{
+	list-style: none;
+	
+	
+}
+
+
+
+
+.contentList .contentItem{
+	float: left;
+	width: 20%;
+	height: 40px;
+	
+}
+
+.contentList .contentItem .animation{
+	background: rgb(225,173,77);;
+	height: 3px;
+	width: 20%;
+	position: absolute;
+	top: 43px;
+	
+}
+
+.leftBox .line{
+	background: lightgray;
+	height: 3px;
+	width: 100%;
+	position: relative;
+	top: 43px;
+	
+
+}
+.contentList .contentItem .kindTitle{
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	height: 40px;
+	color: gray;
+	cursor: pointer;
+}
+
+
+.contentList .contentItem:nth-child(1) .kindTitle{
+	text-align: left;
+	line-height: 40px;
+	font-size: 23px;
+	height: 40px;
+	color: rgb(53,53,53);
+	position: relative;
+	top: -10px;
+	
+}
+
+.contentList .contentItem:nth-child(2) .kindTitle{
+	
+	color: rgb(225,173,77);
+	
+}
+
+
+.contentList .contentItem:nth-child(1):hover .kindTitle{
+	color: rgb(53,53,53);
+}
+
+
+.contentList .contentItem:hover .kindTitle{
+	
+	color: rgb(225,173,77);
+	
+}
+
+
+
+
+
+/*content*/
+.contentList .contentItem .contentDetilList{
+	
+	/*background: red;*/
+	width: 800px;
+	height: 580px;
+	
+	position: absolute;
+	
+	left: 0;
+	
+	bottom: 0;
+	list-style: none;
+	
+}
+
+
+.contentDetilList .detailItem{
+	list-style: none;
+	
+	line-height: 45px;
+	
+	/*background: lightblue;*/
+	
+	height: 45px;
+	
+	cursor: pointer;
+	
+}
+
+.contentDetilList .detailItem:nth-child(1){
+	
+	
+	height: 140px;
+	
+	
+}
+
+
+.contentDetilList .detailItem .detailImg{
+	
+	width: 200px;
+	height: 120px;
+	
+	
+}
+
+
+
+.contentDetilList .detailItem .title{
+	
+	position: absolute;
+	left: 220px;
+	right: 2px;
+	height: 30px;
+	top: 0px;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight:900;
+	color: rgb(17,17,17);
+	
+}
+.contentDetilList .detailItem .subTitle{
+	
+	position: absolute;
+	left: 220px;
+	right: 2px;
+	top: 40px;
+	line-height: 20px;
+	bottom: 0;
+	color: rgb(164,164,164);
+	font-size: 14px;
+	
+}
+
+
+.contentDetilList .detailItem .type{
+	
+	
+	line-height: 35px;
+	
+	display: block;
+	width: 60px ;
+	
+	background: rgb(224,224,224);
+	
+	float: left;
+	height: 35px;
+	
+	text-align: center;
+	
+	position: relative;
+	
+	top: 5px;
+	left: 2px;
+	color: rgb(142,142,142);
+	
+
+}
+
+.contentDetilList .detailItem .text{
+	
+	
+	line-height: 45px;
+	
+	display: block;
+	
+
+	float: left;
+	height: 45px;
+	
+	/*text-align: center;*/
+	
+	position: absolute;
+	color: rgb(85,85,85);
+	
+	left: 80px;
+	right: 2px;
+	
+	
+
+}
+
+
+
+.contentDetilList .detailItem:hover .type{
+	
+	background: rgb(225,173,77);
+	color:  white;
+	
+}
+
+.contentDetilList .detailItem:hover .text{
+	
+	color:  rgb(225,173,77);
+	
+}
+
+
+
+.contentDetilList .moreDetail{
+	
+	background: rgb(224,224,224);
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	top: 24px;
+	color: rgb(85,85,85);
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.contentDetilList .moreDetail:hover{
+	
+	background: rgb(225,173,77);
+	color: white;
+}
+
+
+
+
+/*rightBox*/
+.content .rightBox{
+	
+	
+	/*background: red;*/
+
+
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 380px;
+	
+}
+
+.rightBox .line{
+	background: lightgray;
+	height: 3px;
+	width: 100%;
+	position: relative;
+	top: 43px;
+	
+
+}
+.rightBox .rightList{
+	list-style: none;
+}
+
+.rightBox .rightList .rightItem{
+	float: left;
+	width: 33.33%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	
+	color: gray;
+	cursor: pointer;
+
+}
+
+
+.rightList .rightItem .animation{
+	background: rgb(225,173,77);;
+	height: 3px;
+	width: 33.33%;
+	position: absolute;
+	top: 43px;
+} 
+
+
+.rightList .rightItem:nth-child(2) .title{
+	color: rgb(225,173,77);
+	
+}
+
+
+.rightList .rightItem:hover .title{ 
+	color: rgb(225,173,77);
+}
+
+
+.rightList .rightItem .pifuList{
+	list-style: none;
+	width: 380px;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	
+
+}
+
+.pifuList .pifu{
+	
+	width:  180px;
+	float: left;
+	height: 70px;
+	
+	margin: 5px  ;
+	
+}
+
+.pifuList .pifu:nth-child(11){
+	
+	position: relative;
+	top: 40px;
+}
+
+.pifuList .pifu:nth-child(12){
+	
+	position: relative;
+	top: 40px;
+}
